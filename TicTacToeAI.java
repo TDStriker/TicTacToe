@@ -64,26 +64,6 @@ public class TicTacToeAI {
 					}
 				}
 			}
-			
-//			for(int i = 0; i < options.length; i++) {
-//				for(int j = 0; j < options.length; j++) {
-////					if(!(i == row && j == col) && ((options[row][col] > 0 && options[i][j] > 0) || (options[row][col] < 0 && options[i][j] < 0))){
-////						options[row][col] += options[i][j];
-////					}
-////					
-////					if(options[i][j] != Integer.MAX_VALUE && options[i][j] != Integer.MIN_VALUE) {
-////						options[row][col] += options[i][j] / 10;
-////					}
-////					
-////					if(options[row][col] > 0 && options[i][j] > 0) {
-////						options[row][col]++;
-////					}else if(options[row][col] < 0 && options[i][j] < 0) {
-////						options[row][col]--;
-////					}
-//				}
-//			}
-////			System.out.println(options[row][col]);
-			
 			return options[row][col];
 		}
 		
